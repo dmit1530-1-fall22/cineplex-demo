@@ -1,0 +1,32 @@
+.hide-on-mobile {
+    display: none;
+}
+header {
+    padding: 1rem;
+}
+header img  { width: 125px; }
+header div { display: flex;}
+
+.logo { margin: 0 auto; }
+
+header > ul {
+    display: flex;
+    text-align: center;
+}
+header > ul > li {
+    width: 25%;
+    padding: .5rem;
+}
+header > ul > li:hover {
+    background-color: red;
+    cursor: pointer;
+}
+@media(min-width:900px)
+{
+    .hide-on-mobile {
+        display: inline-block;
+    }
+    header {
+        display: flex;
+    }
+}
